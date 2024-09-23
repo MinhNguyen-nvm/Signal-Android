@@ -1,0 +1,48 @@
+# A fake modules owner
+Core:
+  - app
+  - libsignal-service
+  - core-util
+  - core-util-jvm
+  - core-ui
+  - billing
+
+UI:
+  - image-editor
+  - image-editor-app
+  - spinner
+  - spinner-app
+  - sticky-header-grid
+  - photoview
+
+Data:
+  - paging
+  - paging-app
+  - contacts
+  - contacts-app
+
+Security:
+  - device-transfer
+  - device-transfer-app
+  - qr
+  - qr-app
+
+Media:
+  - video
+  - video-app
+
+Donations:
+  - donations
+  - donations-app
+
+QA:
+  - lintchecks
+  - benchmark
+  - microbenchmark
+
+Infrastructure:
+  - glide-config
+  - build-logic
+
+External:
+  - libsignal-client

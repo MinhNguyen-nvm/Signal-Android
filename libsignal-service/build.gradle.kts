@@ -68,6 +68,7 @@ wire {
     srcDir("src/main/protowire")
   }
 
+
   custom {
     // Comes from wire-handler jar project
     schemaHandlerFactoryClass = "org.signal.wire.Factory"

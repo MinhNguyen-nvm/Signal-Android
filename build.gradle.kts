@@ -1,6 +1,7 @@
 buildscript {
   rootProject.extra["kotlin_version"] = "1.9.20"
   repositories {
+    mavenLocal()
     google()
     mavenCentral()
     maven {
@@ -28,6 +29,8 @@ buildscript {
     classpath("androidx.benchmark:benchmark-gradle-plugin:1.1.0-beta04")
     classpath(files("$rootDir/wire-handler/wire-handler-1.0.0.jar"))
     classpath("com.google.devtools.ksp:com.google.devtools.ksp.gradle.plugin:1.9.20-1.0.14")
+
+    classpath("com.grab.sizer:sizer-gradle-plugin:SNAPSHOT-02")
   }
 }
 
